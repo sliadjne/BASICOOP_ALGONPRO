@@ -3,31 +3,31 @@ class items:
         self.food = food 
         self.Pounds_amount = Pounds_amount
         self.unitprice = 0
-        self.totalprice= 0
+        self.totalprice = 0
        
     def __priceList(self):
-        if self.food is "Dry Cured Iberian Ham":
+        if self.food == "Dry Cured Iberian Ham":
             self.unitprice = 177.80 
         
-        elif self.food is "Wagyu Steaks":
+        elif self.food == "Wagyu Steaks":
             self.unitprice = 450.00
         
-        elif self.food is "Matsutake Mushrooms":
+        elif self.food == "Matsutake Mushrooms":
             self.unitprice = 272.00
 
-        elif self.food is "Kopi Luwak Coffee":
+        elif self.food == "Kopi Luwak Coffee":
             self.unitprice = 306.50
     
-        elif self.food is "Moose Cheese":
+        elif self.food == "Moose Cheese":
             self.unitprice = 487.20
 
-        elif self.food is "White Truffles":
+        elif self.food == "White Truffles":
             self.unitprice = 3600.00
     
-        elif self.food is "Blue Fin Tuna":
+        elif self.food == "Blue Fin Tuna":
             self.unitprice = 3603.00
 
-        elif self.food is "Le Bonnotte Potatoes":
+        elif self.food == "Le Bonnotte Potatoes":
             self.unitprice = 270.81
         
         else: 
